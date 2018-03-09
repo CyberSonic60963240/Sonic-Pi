@@ -12,7 +12,7 @@ use_synth :blade
 Finale = [80, 82, 84, 86, 87, 88, 75, 90, 78]
 # The code below will set the variable "i" to 1, so it can be used in place of a numbered note to produce a note equal to that which its value is set to.
 i = 1
-
+# The code below will set a certain number of values to the variables in the brackets below.
 define :mercy do |d, pt, b|
   sample d
   sample d
@@ -22,6 +22,7 @@ define :mercy do |d, pt, b|
   sleep b
 end
 4.times do
+  # The code below 
   mercy :drum_heavy_kick, :sn_dub, 0.25
   z = z + 0.25
 end
