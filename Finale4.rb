@@ -21,8 +21,8 @@ define :mercy do |d, pt, b|
   sample pt
   sleep b
 end
+  # The code below will map the sample ":drum_heavy_kick" to "d" above, the sample "sn_dub" to "pt", and the value "0.25" to "b", because the samples/values and variables are respectively the first, second, and third items in their respective lists, and play the function above 4 times.
 4.times do
-  # The code below 
   mercy :drum_heavy_kick, :sn_dub, 0.25
   z = z + 0.25
 end
@@ -114,6 +114,7 @@ end
   z = z + 0.25
   sleep 1
 end
+# The code below will use the functions of the "live_loop" to play the parameterized function "mercy" above indefinitely, using the values provided for it and the same properties as above, with each sample/value corresponding with a certain variable according to the placements of the samples and values in this list, and the variables in the list above.
 live_loop :frisk do
   mercy :drum_heavy_kick, :sn_dub, 0.25
 end
