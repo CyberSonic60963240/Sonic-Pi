@@ -1,4 +1,4 @@
-# NAME OF SONG: "Finale" by Toby Fox
+# NAME OF SONG: "Your Best Friend"/"Finale" by Toby Fox
 # SHEET MUSIC: N/A (Done By Ear!)
 # BPM USED: 95bpm
 use_bpm 95
