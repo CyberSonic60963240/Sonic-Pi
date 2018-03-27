@@ -6,7 +6,7 @@ x = :drum_snare_hard # Any sample set to the variable "x" will play the "drum_sn
 y = :drum_bass_soft # Any sample set to the variable "y" will play the "drum_bass_soft" sample.
 z = 0.25 # Anything set to the variable "z" will be set to one quarter of a beat.
 hurt = "C:/Users/Gregory_Cowgill/Desktop/hurt.wav"
-memory = "C:/Users/Gregory_Cowgill/Desktop/MEMORIES.wav"
+memory = "C:/Users/Gregory_Cowgill/Desktop/MEMORIES.wav" # Everywhere "memory" appears, the sound mapped to this url will play.
 # The code below will change the sound effects to those reminiscent of the classic film "Blade Runner".
 use_synth :blade
 # The code below will label the notes in numerical order, starting from 0, and will play the note whose number value matches the one in brackets just after the codename that the list is given (which, in this case, is "Finale") when the command is "play"ed.
